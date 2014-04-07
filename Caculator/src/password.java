@@ -25,7 +25,7 @@ public class password extends JFrame {
 		this.setVisible(true);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setLocationRelativeTo(null);
-		this.setResizable(false);
+		this.setResizable(false);		
 
 	}
 	
@@ -43,6 +43,6 @@ public class password extends JFrame {
 	}
 	
 	public static void main(String[] args) {
-		password p = new password(); 
+		password p = new password();
 	}
 }

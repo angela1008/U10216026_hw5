@@ -68,6 +68,13 @@ public class Caculator extends JFrame {
 		p4.add(p3, BorderLayout.SOUTH);
 
 		add(p4);
+		
+		this.setTitle("Caculator");
+		this.setSize(300, 350);
+		this.setResizable(false);
+		this.setLocationRelativeTo(null);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
 	}
 
 	private class ButtonListener implements ActionListener{
@@ -158,13 +165,8 @@ public class Caculator extends JFrame {
 		}		
 	}
 	
-	public static void main(String[] args) {
-		Caculator frame = new Caculator();
-		frame.setTitle("Caculator");
-		frame.setSize(300, 350);
-		frame.setResizable(false);
-		frame.setLocationRelativeTo(null);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setVisible(true);
-	}
+//	public static void main(String[] args) {
+//		Caculator frame = new Caculator();
+//		
+//	}
 }
